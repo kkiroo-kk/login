@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>log in</title>
+    <link rel="stylesheet" href="log.css">
+
+</script>
+</head>
+<body>
+    <form class="form">
+<div class="log"><span id="li">log in</span>
+<label id="mail" for="be">Email</label>
+<input type="email" id="be" placeholder="Enter Email" required>
+<label id="password" for="bp">password</label>
+<input type="password" id="bp" placeholder="Enter password" required>
+<div class="options">
+<label class="remember">
+    <input type="checkbox" id="cb" required>
+    <span>remember me</span>
+</label>
+<a href="#" class="forgot"><span>forgot password ?</span></a>
+</div>
+
+<input type="submit" value="log in" id="but">
+<p class="signup">Don't have an account ? <span id="re">register</span></p>
+</div>
+</form>
+
+
+<script>
+document.querySelector('.form').addEventListener('submit', function (e) {
+    e.preventDefault(); // يمنع إعادة تحميل الصفحة
+    // هنا تعمل التحقق أو تبعت البيانات
+});
+</script>
+
+    
+</body>
+</html>

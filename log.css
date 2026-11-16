@@ -1,0 +1,106 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+    background-image: url(Gemini_Generated_Image_w8go6qw8go6qw8go.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    min-height: 100vh;
+    background-position: right;
+    height: 100vh;
+display: flex;
+color: #ffffff;
+justify-content: flex-end;
+align-items: center;
+}
+.form{
+ background: rgba(255, 255, 255, 0.2);
+   box-shadow: 0 4px 12px rgba(0, 0, 1, 1);
+border: 1px solid rgba(255, 255, 255, 0.2);
+padding: 20px;
+margin: 100px;
+border-radius: 40px;
+width: 30%;
+
+font-size: 16px;
+gap: 15px;
+display: flex;
+flex-direction: column;
+
+}
+.log{
+display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 12px;
+}
+#li{
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.log input[type="email"],
+.log input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;}
+    .options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;}
+    .remember{
+       display: flex;
+       gap: 8px;
+       font-size: 14px;
+       cursor: pointer;
+    }
+    .forgot {
+    font-size: 14px;
+    color: #38bdf8;                
+    text-decoration: none;         
+}
+
+.forgot:hover {
+    text-decoration: underline;   
+}
+#but {
+    width: 80%;
+    padding: 12px;
+    background-color: #38bdf8; 
+    color: #0f172a;           
+    border: none;             
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.3s;
+    justify-content: center;
+    margin: auto;
+}
+
+#but:hover {
+    background-color: #0ea5e9; 
+}
+.lre{
+    display: flex;
+    gap: 18px;
+}
+#re{
+    text-decoration: none;
+    font-size: 20px;
+     color: #38bdf8;  
+}
+#re:hover {
+    text-decoration: underline;   
+}
+
+.signup {
+    text-align: center;
+    width: 100%;
+    margin-top: 15px;
+    font-size: 14px;
+}
